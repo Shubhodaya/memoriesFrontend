@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const bURL=process.env.URL;
+const bURL=process.env.newURL;
 
 const API = axios.create({baseURL: bURL });
 
