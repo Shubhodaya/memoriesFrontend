@@ -2,6 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "proxy": "https://memoriesbackend-luey.onrender.com",
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -31,9 +32,12 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0"
   },
+  "engines": {
+  "node": "18.x"
+},
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
